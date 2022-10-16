@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+body {
+    background-image: url(/src/img/fabric-textured_53876-94966.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    padding: 1.5rem;
+}
