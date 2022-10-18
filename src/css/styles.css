@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/src/img/fabric-textured_53876-94966.jpg);
+    background-image: url(/src/img/fondo_saco.jpg);
     background-repeat: repeat;
     /* background-size: cover; */
 }
@@ -29,6 +29,12 @@ footer {
 }
 
 #carouselWithInterval {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.location-map {
+    margin: 5%;
+    height: 500px;
 }
