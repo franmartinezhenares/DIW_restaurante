@@ -27,3 +27,8 @@ footer {
 .dish-container:hover {
     box-shadow: 2px 2px 10px;
 }
+
+#carouselWithInterval {
+    padding-left: 50px;
+    padding-right: 50px;
+}
