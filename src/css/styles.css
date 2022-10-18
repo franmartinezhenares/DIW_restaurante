@@ -8,10 +8,22 @@
 
 body {
     background-image: url(/src/img/fabric-textured_53876-94966.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /* background-size: cover; */
 }
 
 footer {
     padding: 1.5rem;
+}
+
+.dish {
+    object-fit: cover;
+}
+
+.dish-container{
+    padding: 10px;
+}
+
+.dish-container:hover {
+    box-shadow: 2px 2px 10px;
 }
