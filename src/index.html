@@ -30,7 +30,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
@@ -62,12 +62,12 @@
               <a
                 class="nav-link text-center active col"
                 aria-current="page"
-                href="about.html"
+                href="#about"
                 >¿Quiénes somos?</a>
             </li>
 
             <li class="nav-item col">
-              <a class="nav-link text-center active col" href="#">Reservas</a>
+              <a class="nav-link text-center active col" href="booking.html">Reservas</a>
             </li>
             
             <li class="nav-item dropdown text-center col">
@@ -82,14 +82,13 @@
                 <li><a class="dropdown-item" href="menu.html#starters">Entrantes</a></li>
                 <li><a class="dropdown-item" href="menu.html#dishes">Platos</a></li>
                 <li><a class="dropdown-item" href="menu.html#desserts">Postres</a></li>
-                <li><a class="dropdown-item" href="#">Vinos</a></li>
+                <li><a class="dropdown-item" href="menu.html#wines">Vinos</a></li>
                 <li><a class="dropdown-item" href="#">Cervezas</a></li>
-                <li><a class="dropdown-item" href="#">Espirituosos</a></li>
               </ul>
             </li>
 
             <li class="nav-item col">
-              <a class="nav-link text-center active" href="#">Contacto</a>
+              <a class="nav-link text-center active" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
@@ -133,12 +132,26 @@
       </button>
     </div>
 
-    <div class="container-fluid">
-      <h1>¿Dónde estamos?</h1>
-      <iframe class="mx-auto d-block img-fluid location-map border border-dark rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.2955536213517!2d2.6513274152306687!3d39.57548887947179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925403303dc5%3A0x58b6f5f60482f24f!2sPlaza%20de%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1666100541765!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container-fluid row">
+      <div class="col-lg-6">
+        <h1 id="about" class="info-header">¿Quiénes Somos?</h1>
+        <p>Desde 1970 estamos con Uds. ofreciéndoles lo mejor de la gastronomía de Mallorca, con productos de calidad, buen servicio y una extensa carta de vinos todo ello ofrecido en uno de los entornos más bellos y cautivadores de la Isla.</p>
+        <h2 class="info-header">Nuestro horario</h2>
+        <p>Martes a Domingo de <time>12:00</time> a <time>23:00</time></p>
+        <h2 id="contact" class="info-header">Contacto</h2>
+        <h2 >Teléfono: <a href="tel:971555555">971 55 55 55</a></h2>
+        <h2>Correo electrónico: <a href="mailto:onlynatural@gmail.com">onlynatural@gmail.com</a></h2>
+        
+      </div>
+      <div class="col-lg-6">
+        <h1 class="info-header">¿Dónde estamos?</h1>
+        <address>Plaza España s/n C.P: 07002</address>
+        <iframe class="mx-auto d-block img-fluid location-map border border-dark rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.2955536213517!2d2.6513274152306687!3d39.57548887947179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925403303dc5%3A0x58b6f5f60482f24f!2sPlaza%20de%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1666100541765!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
 
     <footer>
+      <h2 class="info-header">Nuestras redes sociales</h2>
       <div class="container container-fluid d-flex justify-content-around ">
         <a href="http://www.facebook.com"  class="d-flex">
           <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><linearGradient id="Ld6sqrtcxMyckEl6xeDdMa" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"/><stop offset="1" stop-color="#007ad9"/></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"/><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"/></svg>
